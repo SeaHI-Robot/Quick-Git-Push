@@ -6,7 +6,7 @@
 
 ## Description
 
-A bash script that helps you ease your "git push". I am about to create a powershell version in windows. 
+A bash script that helps you ease your "git push". There will be a powershell version for windows environment soon. 
 
 
 ## Usage
