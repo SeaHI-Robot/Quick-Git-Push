@@ -21,7 +21,6 @@ The scripts were tested and work well on ubuntu & windows environments.
 ## Usage
 
 <details>   
-
     <summary>Bash - ubuntu</summary>
     
     1. Copy `quick_git_push.sh` into a safe directory.
@@ -35,7 +34,6 @@ The scripts were tested and work well on ubuntu & windows environments.
 
 
 <details>
-
     <summary>powershell - windows</summary>
 
     1.  Run `Set-ExecutionPolicy RemoteSigned` in your PowerShell to make sure PowerShell scripts with the suffix `.ps1` are executable. (Administrator privileges may be required).
