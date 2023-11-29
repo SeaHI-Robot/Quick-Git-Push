@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Get date
-
+# Get date from your computer system
 today=$(date +"%y.%m.%d")
 
 echo " "
@@ -17,11 +16,11 @@ echo "---------------------------------------------"
 echo " "
 
 
-# 执行git add
-#git add .
+# execute git add
+git add .
 
-# 执行git commit
-#git commit -m "update $today"
+# execute git commit
+git commit -m "update $today"
 
-# 执行git push
-#git push
+# execute git push
+git push
