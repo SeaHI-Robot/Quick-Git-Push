@@ -53,7 +53,7 @@ The scripts were tested and work well on ubuntu & windows environments.
 
 ## Notice!
 
-As shown blow, the git commit format is fixed, so **do not use this script in projects with strict commit format requirements.**
+As shown blow, the git commit format is fixed, so **do not use the scripts in projects with strict commit format requirements.**
 
 
 
