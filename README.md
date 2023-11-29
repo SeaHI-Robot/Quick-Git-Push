@@ -6,11 +6,15 @@
 
 ## Description
 
-Bash/PowerShell scripts that help you ease your "git push" process. 
+Bash/PowerShell scripts that help you ease your "git push" process. Use an alias to integrate git add, git commit and git push.
+
+
 
 The scripts were tested and work well on ubuntu & windows environments.
 
 
+
+![Demo in PowerShell](README.assets\image-20231129193018759.png)
 
 ## Usage
 
