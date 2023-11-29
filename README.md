@@ -22,17 +22,18 @@ The scripts were tested and work well on ubuntu & windows environments.
 
 <details>   
     <summary>Bash - ubuntu</summary>
+    
     1. Copy `quick_git_push.sh` into a safe directory.
-
+    
     2. Add `alias push='. <directory_to_quick_git_push.sh>/quick_git_push.sh'` into your `.bashrc` or `.bash_aliases` profile. You can modify *"push"* to any other alias you like.
     
     3. `$ cd <your_git_repo>`, run the alias in Bash terminal: `$ push` (*"push"* in my case, make sure the .`bashrc` profile is sourced before using)： </details>
 
 
 
-
 <details>
     <summary>powershell - windows</summary>
+    
     1.  Run `Set-ExecutionPolicy RemoteSigned
 ` in your PowerShell to make sure PowerShell scripts with the suffix `.ps1` are executable. (Administrator privileges may be required)
     
@@ -44,6 +45,7 @@ The scripts were tested and work well on ubuntu & windows environments.
     
     5. `cd <your_git_repo>`, run the alias in PowerShel terminall: `$ push` (*"push"* in my case)
 </details>
+
 
 
 
