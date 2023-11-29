@@ -34,8 +34,7 @@ The scripts were tested and work well on ubuntu & windows environments.
 <details>
     <summary>powershell - windows</summary>
     
-    1.  Run `Set-ExecutionPolicy RemoteSigned
-` in your PowerShell to make sure PowerShell scripts with the suffix `.ps1` are executable. (Administrator privileges may be required)
+    1.  Run `Set-ExecutionPolicy RemoteSigned` in your PowerShell to make sure PowerShell scripts with the suffix `.ps1` are executable. (Administrator privileges may be required).
     
     2.  In PowerShell, run`$PROFILE` to find the directory to the Powershell profile `Microsoft.PowerShell_profile.ps1Microsoft.PowerShell_profile.ps1`, if it doesn't exit, run `New-Item -Type File -Path $profile -Force` to create it.
     
