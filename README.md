@@ -14,7 +14,7 @@ The scripts were tested and work well on ubuntu & windows environments.
 
 
 
-![Demo in PowerShell](README.assets\image-20231129193018759.png)
+![Demo in PowerShell](README.assets/image-20231129193018759.png)
 
 ## Usage
 
