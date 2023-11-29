@@ -12,7 +12,9 @@ Bash/PowerShell scripts that help you ease your "git push" process. Use an alias
 
 The scripts were tested and work well on ubuntu & windows environments.
 
+<br>
 
+- Demo in PowerShell:
 
 ![Demo in PowerShell](README.assets/image-20231129193018759.png)
 
