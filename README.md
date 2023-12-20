@@ -6,11 +6,21 @@
 
 ## Description
 
-Bash/PowerShell scripts that help you ease your "git push" process. Use an alias to integrate git add, git commit and git push.
+> **Bash** / **PowerShell** / **python** scripts that help you ease your "git push" process. 
+
+
+
+Use an `push` alias in terminal to `git add .` , `git commit -m "commit-message"` and `git push`.
 
 
 
 The scripts were tested and work well on ubuntu & windows environments.
+
+
+
+## Characteristic
+- The bash and powershell script directly push your repo with the commit messgae fotmat `update year-month-day`
+- The python script enable custom commit message, the commit messgae fotmat `update year-month-day` by default.
 
 <br>
 
@@ -22,14 +32,46 @@ The scripts were tested and work well on ubuntu & windows environments.
 
 <details>   
     <summary>Bash - ubuntu</summary>
-    
+
     1. Copy `quick_git_push.sh` into a safe directory.
     
     2. Add `alias push='. <directory_to_quick_git_push.sh>/quick_git_push.sh'` into your `.bashrc` or `.bash_aliases` profile. You can modify *"push"* to any other alias you like.
     
     3. `$ cd <your_git_repo>`, run the alias in Bash terminal: `$ push` (*"push"* in my case, make sure the .`bashrc` profile is sourced before using)
+    
+    4. **Notice!** If you are using the **python** script, **do not configure `quick_git_push.sh`** to avoid repetition of terminal command.
+    
+    5. **Usage**: 
+    	```
+    	$ cd <path-to-your-repo>
+    	$ push
+    	```
+    	**Commit message format is fixed in this script**
 
 </details>
+
+
+
+
+<details>   
+    <summary>Python - ubuntu</summary>
+
+    1. Copy `quick_git_push.py`.
+    
+    2. Copy quick_git_push.py with an alias to `$ sudo mv <path-to-quick_git_push.py>/quick_git_push.py /usr/local/bin/push`
+    
+    3. `$ cd <your_git_repo>`, run the alias in Bash terminal: `$ push` (*"push"* in my case, make sure the .`bashrc` profile is sourced before using)
+    
+    4. **Notice!** If you are using the **bash** script, **do not configure `quick_git_push.py`** to avoid repetition of terminal command. 
+    
+    5. **Usage**: 
+    	```
+    	$ cd <path-to-your-repo>
+    	$ push "<commit-message, optinal>"
+    	```
+
+</details>
+
 
 
 
@@ -44,8 +86,13 @@ The scripts were tested and work well on ubuntu & windows environments.
     
     4.  Add `New-Alias -Name push -Value <directory_to_quick_git_push.sh>\quick_git_push.ps1` into `Microsoft.PowerShell_profile.ps1`. You can modify *"push"* to any other alias you like.
     
-    5. `cd <your_git_repo>`, run the alias in PowerShel terminall: `$ push` (*"push"* in my case)
-    
+    5. **Usage**: 
+    	```
+    	$ cd <path-to-your-repo>
+    	$ push 
+    	```
+    	**Commit message format is fixed in this script**
+
 </details>
 
 
@@ -53,7 +100,7 @@ The scripts were tested and work well on ubuntu & windows environments.
 
 ## Notice!
 
-As shown blow, the git commit format is fixed, so **do not use the scripts in projects with strict commit format requirements.**
+As shown blow, the git commit format is fixed, so ***do not use the scripts (except for `quick_git_push.py`) in projects with strict commit format requirements.***
 
 
 
