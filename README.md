@@ -56,7 +56,7 @@ The scripts were tested and work well on ubuntu & windows environments.
 <details>   
     <summary>Python - ubuntu</summary>
 
-    1. Copy `quick_git_push.py`.
+    1. Download `quick_git_push.py` and make it an executable file.
     
     2. Copy quick_git_push.py with an alias to `$ sudo mv <path-to-quick_git_push.py>/quick_git_push.py /usr/local/bin/push`
     
