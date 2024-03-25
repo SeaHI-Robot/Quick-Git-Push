@@ -1,4 +1,4 @@
-# README
+# Ease Your Git Push!
 
 > Push you git repository in real quick!
 
@@ -58,9 +58,9 @@ The scripts were tested and work well on ubuntu & windows environments.
 
     1. Download `quick_git_push.py` and make it an executable file.
     
-    2. Copy quick_git_push.py with an alias to `$ sudo mv <path-to-quick_git_push.py>/quick_git_push.py /usr/local/bin/push`
+    2. Copy quick_git_push.py with an alias to `$ sudo mv <path-to-quick_git_push.py>/quick_git_push.py /usr/local/bin/push`; Or instead, use a bash alias to call `quick_git_push.py`, which requires you to configure your `.bashrc` or `.bash_aliases`, for examlple, add `alias push="python3 <path-to-quick_git_push.py>/quick_git_push.py`.
     
-    3. `$ cd <your_git_repo>`, run the alias in Bash terminal: `$ push` (*"push"* in my case, make sure the .`bashrc` profile is sourced before using)
+    3. `$ cd <your_git_repo>`, run the alias in Bash terminal: `$ push` (*"push"* in my case, make sure the .`bashrc` profile is sourced before using).
     
     4. **Notice!** If you are using the **bash** script, **do not configure `quick_git_push.py`** to avoid repetition of terminal command. 
     
